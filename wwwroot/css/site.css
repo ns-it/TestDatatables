@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+/* DATATABLES RTL*/
+
+/*table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {*/
+    /*padding-right:0;*/
+    /*padding-inline-start: 30px;
+}
+table.table-bordered.dataTable th, table.table-bordered.dataTable td {
+    border-inline-start-width: 0;
+}*/
+
+
+/* width */
+::-webkit-scrollbar {
+    width: .6rem;
+    height: .6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: silver;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #41a5f5;
+    transition: background-color 10s;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #3382c2;
+    }
+
+
+/*table.dataTable tbody {
+    max-height: 40px;
+    overflow-y: auto;
+}*/
